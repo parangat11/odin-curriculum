@@ -2,6 +2,9 @@
 
 Asynchronous code can become difficult to follow when it has a lot of things going on. `async` and `await` are two keywords that can help make asynchronous code read more like synchronous code. This can help code look cleaner while keeping the benefits of asynchronous code.
 
+`async` and `await` are just syntactic sugars that help simplify promises for us.
+Instead of the triangle that we get on processing and getting multiple promises for a task, we rather put all that in an async function that contains multiple promises that can be handled in a much more clear fashion.
+
 For example, the two code blocks below do the exact same thing. They both get information from a server, process it, and return a promise.
 
 ```javascript
